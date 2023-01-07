@@ -1,6 +1,5 @@
 var express=require("express");
 var cors=require("cors");
-const Razorpay = require('razorpay');
 var app=express();
 app.use(cors());
 const request = require('request');
